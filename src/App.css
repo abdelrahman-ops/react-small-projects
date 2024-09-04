@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px ;
+}
+
+.show-container{
+  text-align: center;
+  background-color: #CB997E;
+  padding: 30px;
+}
+#show{
+  color: white;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin: 10px 10px;
+  border-radius: 10px;
+  background-color: #5403a0;
+}
+
+.timer-container{
+  background-color: #DDBEA9;
+  padding: 30px;
+  text-align: center;
+}
+button {
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin: 10px 2px;
+}
+button:nth-of-type(1) {
+  background: green;
+}
+button:nth-of-type(2) {
+  background: red;
+}
+button:nth-of-type(3) {
+  background: yellow;
+}
+
+.todo{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  background-color: #FFE8D6;
+  padding: 30px;
+}
+ul{
+  padding: 0;
+}
+ul li{
+  font-size: 23px;
+}
+input {
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 10px;
+}
+#delete, #add {
+  color: white;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin: 10px 10px;
+  border-radius: 10px;
+}
+#delete{
+  background-color: red;
+}
